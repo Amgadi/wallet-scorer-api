@@ -165,8 +165,8 @@ def get_wallet_data(wallet_address):
 
     print("Did you mint a bluechip?", mintbluechip)
 
-    alldate_response = {"nft_protfolio_value:": portfolio_value, "first_mint_date": first_occurence,
-                        "mint_bluechip:": mintbluechip, "total_trading_value": totalvolume}
+    alldate_response = {"nft_protfolio_value": portfolio_value, "first_mint_date": first_occurence,
+                        "mint_bluechip": mintbluechip, "total_trading_value": totalvolume}
 
     return alldate_response
 
